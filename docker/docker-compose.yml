@@ -1,0 +1,14 @@
+version: '3'
+services:
+  gateway:
+    image: $IMAGE
+    container_name: gateway
+    environment:
+      NODE_ENV: production
+    ports:
+    - 3000:3000
+
+networks:
+  default:
+    external:
+      name: $NETWORK

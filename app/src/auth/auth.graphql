@@ -1,0 +1,26 @@
+type Mutation {
+    signUp(signUpInput: SignUpInput): SignedUp
+}
+
+input SignUpInput{
+    name: String!
+    email: String!
+    password: String!
+}
+
+
+type SignedUp{
+    token: String!
+    expireIn: Int!
+}
+
+type Query {
+    user(id: String!): User
+}
+
+type User {
+    id: String!
+    name: String!
+    email: String!
+    password: String!
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package auth;
+
+message SignedUpResponse {
+    string token = 1;
+    int32 expiresIn = 2;
+}
