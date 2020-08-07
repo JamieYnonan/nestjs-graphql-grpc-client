@@ -29,7 +29,7 @@
     "@nestjs/microservices": "^6.11.7",
     "@nestjs/platform-express": "^6.10.14",
     "apollo-server-express": "^2.10.1",
-    "class-transformer": "^0.2.3",
+    "class-transformer": "^0.3.1",
     "cpx": "^1.5.0",
     "graphql": "^14.6.0",
     "graphql-tools": "^4.0.6",
